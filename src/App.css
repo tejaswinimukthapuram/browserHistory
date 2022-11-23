@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-logo {
+  width: 60px;
+}
+.navbar {
+  background-color: #3367d6;
+  display: flex;
+  justify-content: space-around;
+}
+
+.search {
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+}
+
+.search-bar-container {
+  display: flex;
+}
+.domain-logo {
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 4px, 3px, 2px, 16px grey;
+  margin: 20px;
+}
+
+.time {
+  width: 100px;
+  margin-right: 5px;
+}
+.title {
+  width: 220px;
+}
+.delete {
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+}
+.list-card {
+  display: flex;
+  flex-direction: row;
+}
+.list-first-part {
+  display: flex;
+  flex-direction: row;
+}
